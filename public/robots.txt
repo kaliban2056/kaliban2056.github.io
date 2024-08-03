@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kaliban2056.github.io/sitemap.xml

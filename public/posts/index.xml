@@ -4,7 +4,12 @@
     <title>Posts on Kaliban&#39;s Blog</title>
     <link>https://kaliban2056.github.io/posts/</link>
     <description>Recent content in Posts on Kaliban&#39;s Blog</description>
-    <generator>Hugo -- 0.127.0</generator>
+    <image>
+      <title>Kaliban&#39;s Blog</title>
+      <url>https://kaliban2056.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaliban2056.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 12:28:26 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +18,7 @@
       <link>https://kaliban2056.github.io/posts/welcome/</link>
       <pubDate>Sat, 03 Aug 2024 12:28:26 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/welcome/</guid>
-      <description>This is a test post this is a test</description>
+      <description>This is a test post this is a test another test</description>
     </item>
   </channel>
 </rss>

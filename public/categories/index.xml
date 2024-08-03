@@ -4,7 +4,12 @@
     <title>Categories on Kaliban&#39;s Blog</title>
     <link>https://kaliban2056.github.io/categories/</link>
     <description>Recent content in Categories on Kaliban&#39;s Blog</description>
-    <generator>Hugo -- 0.127.0</generator>
+    <image>
+      <title>Kaliban&#39;s Blog</title>
+      <url>https://kaliban2056.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaliban2056.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <atom:link href="https://kaliban2056.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
