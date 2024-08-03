@@ -1,0 +1,4 @@
+baseURL = "https://kaliban2056.github.io/"
+languageCode = "en-us"
+title = "Kaliban's Blog"
+theme = "PaperMod"
