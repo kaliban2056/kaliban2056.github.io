@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kaliban&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kaliban2056.github.io/</link>
     <description>Recent content on Kaliban&#39;s Blog</description>
     <image>
       <title>Kaliban&#39;s Blog</title>
-      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Aug 2024 17:37:22 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kaliban2056.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kaliban2056.github.io/about/</link>
       <pubDate>Sat, 03 Aug 2024 17:37:22 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kaliban2056.github.io/about/</guid>
       <description>Hi, I&amp;rsquo;m Kaliban a passionate computer science enthusiast with a broad interest in technology. My journey includes programming, penetration testing, networking, and self-hosting, with a current focus on mastering the Rust programming language. I’m deeply involved in Capture The Flag (CTF) challenges, which fuel my curiosity and drive to solve complex security problems. I predominantly use GNU/Linux systems, particularly Arch Linux, and am a strong advocate for Free Open Source Software and decentralized networks like Tor and P2P.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://kaliban2056.github.io/projects/</link>
       <pubDate>Sat, 03 Aug 2024 17:37:22 +0200</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://kaliban2056.github.io/projects/</guid>
       <description>Projects a list of projects</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://kaliban2056.github.io/posts/welcome/</link>
       <pubDate>Sat, 03 Aug 2024 12:28:26 +0200</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://kaliban2056.github.io/posts/welcome/</guid>
       <description></description>
     </item>
   </channel>
