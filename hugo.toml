@@ -53,7 +53,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hello visitor!"
-  Content = "Welcome to my internet corner"
+  Content = "Welcome to my corner of the interner, journey with me through the realms of tech, security, and programming innovation."
 
   [[params.socialIcons]]
   name = "github"
