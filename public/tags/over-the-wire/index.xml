@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Kaliban&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Kaliban&#39;s Blog</description>
+    <title>Over the Wire on Kaliban&#39;s Blog</title>
+    <link>http://localhost:1313/tags/over-the-wire/</link>
+    <description>Recent content in Over the Wire on Kaliban&#39;s Blog</description>
     <image>
       <title>Kaliban&#39;s Blog</title>
       <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Aug 2024 15:45:39 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/over-the-wire/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over The Wire - Bandit 0</title>
       <link>http://localhost:1313/posts/overthewire-bandit-0/</link>
@@ -20,15 +20,6 @@
       <guid>http://localhost:1313/posts/overthewire-bandit-0/</guid>
       <description>Introduction OverTheWire is an online platform that provides a series of interactive war games designed to teach and challenge users in various aspects of cybersecurity, programming, and systems administration. These war games cover a diverse range of topics, from basic Linux command line usage to complex cryptography and network exploitation techniques.
 Bandit 0 Level Goal The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.</description>
-    </item>
-    <item>
-      <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Sat, 03 Aug 2024 12:28:26 +0200</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>Hi there, Kaliban&amp;rsquo;s here,
-This space is all about technology, cybersecurity, open-source software, and decentralized networks. I’ll be sharing my experiences and insights to help you understand and explore these areas.
-This blog is also a personal challenge for me. It’s a chance to build something new and stay consistent with it. I’m stepping out of my comfort zone to see how well I can manage and maintain this project.</description>
     </item>
   </channel>
 </rss>

@@ -2,23 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-08-03T17:37:22+02:00</lastmod>
+    <loc>http://localhost:1313/tags/bandit/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cyber-security/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/over-the-wire/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/overthewire-bandit-0/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-04T15:45:39+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-08-03T17:37:22+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-08-03T17:37:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-03T12:28:26+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/welcome/</loc>
     <lastmod>2024-08-03T12:28:26+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

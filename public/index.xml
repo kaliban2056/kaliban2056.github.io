@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Aug 2024 17:37:22 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2024 15:45:39 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Over The Wire - Bandit 0</title>
+      <link>http://localhost:1313/posts/overthewire-bandit-0/</link>
+      <pubDate>Sun, 04 Aug 2024 15:45:39 +0200</pubDate>
+      <guid>http://localhost:1313/posts/overthewire-bandit-0/</guid>
+      <description>Introduction OverTheWire is an online platform that provides a series of interactive war games designed to teach and challenge users in various aspects of cybersecurity, programming, and systems administration. These war games cover a diverse range of topics, from basic Linux command line usage to complex cryptography and network exploitation techniques.
+Bandit 0 Level Goal The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
