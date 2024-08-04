@@ -25,7 +25,8 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Sat, 03 Aug 2024 17:37:22 +0200</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>Projects a list of projects</description>
+      <description>These are my projects that you can find on GitHub:
+Packet Sniffer: Captures and decodes Ethernet, IPv4, ICMP, TCP, and UDP traffic using raw sockets. TCP Chat Room: Server-client chat with real-time messaging and nickname support, using threading and basic socket programming. kaliban2056.github.io: The source code of this page. </description>
     </item>
     <item>
       <title>Welcome</title>
