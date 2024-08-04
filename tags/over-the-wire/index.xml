@@ -11,15 +11,38 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Aug 2024 15:45:39 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2024 20:08:05 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/over-the-wire/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Over The Wire - Bandit 0</title>
+      <title>Overthewire Bandit 1 2</title>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</link>
+      <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
+      <description>Task Read the content of the file called &amp;ldquo;-&amp;rdquo;
+SSH: bandit1@bandit.labs.overthewire.org -p 2220
+Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Theory To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file ./.
+Solution We log in to the remote host with the right credentials ~$: ssh bandit1@bandit.labs.overthewire.org -p 2220 Search for the file and read it. bandit1@bandit~$: ls - bandit1@bandit~$: cat ./- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx We can now proceed to the next challenge.</description>
+    </item>
+    <item>
+      <title>Over The Wire - Bandit 0 -&gt; 1</title>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</link>
+      <pubDate>Sun, 04 Aug 2024 19:51:15 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</guid>
+      <description>Task Find the file readme stored in the filesystem.
+SSH: bandit0@bandit.labs.overthewire.org -p 2220
+Password: bandit0
+Theory After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:
+pwd this command show the name of the working directory, the directory you&amp;rsquo;re in right now. ls list the files in the current folder, you can add the attribute -a to show hidden files, using -l instead will show additional information on the files.</description>
+    </item>
+    <item>
+      <title>Overthewire Bandit 0</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-0/</link>
-      <pubDate>Sun, 04 Aug 2024 15:45:39 +0200</pubDate>
+      <pubDate>Sun, 04 Aug 2024 19:47:52 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0/</guid>
-      <description>Introduction OverTheWire is an online platform that provides a series of interactive war games designed to teach and challenge users in various aspects of cybersecurity, programming, and systems administration. These war games cover a diverse range of topics, from basic Linux command line usage to complex cryptography and network exploitation techniques.
-Bandit 0 Level Goal The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.</description>
+      <description>Introduction OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.
+The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.
+I worked through the levels and decided to write a walkthrough for my blog.</description>
     </item>
   </channel>
 </rss>
