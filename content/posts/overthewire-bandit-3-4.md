@@ -9,7 +9,9 @@ tags = ["cyber security", "bandit", "over the wire"]
 
 Find and read the content of the hidden file in the `inhere` directory.
 
-SSH: `ssh bandit3@bandit.labs.overthewire.org -p 2220`
+# Login
+
+SSH: `bandit3@bandit.labs.overthewire.org -p 2220`
 
 Password: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`
 
@@ -35,7 +37,5 @@ bandit3@bandit~$: ls -a
 bandit3@bandit~$: cat ...Hiding-From-You
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
-
-Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 3. Use this password to log to the next level.

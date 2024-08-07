@@ -9,6 +9,8 @@ tags = ["cyber security", "bandit", "over the wire"]
 
 Read the content of the file called "-"
 
+# Login
+
 SSH: `bandit1@bandit.labs.overthewire.org -p 2220`
 
 Password: `ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`

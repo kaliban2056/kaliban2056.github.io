@@ -23,6 +23,8 @@ Great, now that you know what this article is about and why I am doing this, let
 
 Log into the level with SSH.
 
+## Login
+
 Server: `bandit.labs.overthewire.org`
 
 Port: `2220`

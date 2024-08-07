@@ -9,7 +9,9 @@ tags = ["cyber security", "bandit", "over the wire"]
 
 Read the content of the file called "spaces in this filename".
 
-SSH: `ssh bandit2@bandit.labs.overthewire.org -p 2220`
+# Login
+
+SSH: `bandit2@bandit.labs.overthewire.org -p 2220`
 
 Password: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
 

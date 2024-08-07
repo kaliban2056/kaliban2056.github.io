@@ -9,6 +9,8 @@ tags = ["cyber security", "bandit", "over the wire"]
 
 Find the file `readme` stored in the filesystem.
 
+# Login
+
 SSH: `bandit0@bandit.labs.overthewire.org -p 2220`
 
 Password: `bandit0`
