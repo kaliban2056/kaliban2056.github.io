@@ -21,7 +21,7 @@
       <description>Task The password for the next level is stored somewhere on the server and has all of the following properties:
 owned by user bandit7 owned by group bandit6 33 bytes in size Login SSH: bandit6@bandit.labs.overthewire.org -p 2220
 Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-Theory </description>
+Theory The process to solve this task is pretty similar to the previous level, we just need the find command with some different attribute, -user [username] searches for files owned by a specific user and -group [groupname] searches for files owned by a specific group.</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 5 -&gt; 6</title>
