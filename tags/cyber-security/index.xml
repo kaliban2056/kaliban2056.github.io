@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 11:40:36 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 11:50:31 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Overthewire Bandit 3 -&gt; 4</title>
+      <title>Over The Wire - Bandit 4 -&gt; 5</title>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</link>
+      <pubDate>Wed, 07 Aug 2024 11:50:31 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Over The Wire - Bandit 3 -&gt; 4</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</link>
       <pubDate>Wed, 07 Aug 2024 11:40:36 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</guid>
@@ -24,7 +31,7 @@ Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 Theory To find an hidden file in a linux filesystem is really easy, we can use the ls command to list every file in the directory adding to it the -a attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.</description>
     </item>
     <item>
-      <title>Overthewire Bandit 2 -&gt; 3</title>
+      <title>Over The Wire - Bandit 2 -&gt; 3</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</link>
       <pubDate>Tue, 06 Aug 2024 17:51:53 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</guid>
@@ -35,7 +42,7 @@ Theory We can&amp;rsquo;t read a file that has a space in his filename normally.
 Solution Log in to the remote host with the credentials from the last level. ~$: ssh bandit2@bandit.</description>
     </item>
     <item>
-      <title>Over The Wire Bandit 1 -&gt; 2</title>
+      <title>Over The Wire - Bandit 1 -&gt; 2</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</link>
       <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
@@ -57,7 +64,7 @@ Theory After loggin in the remote host you can use a set of commands to understa
 pwd this command show the name of the working directory, the directory you&amp;rsquo;re in right now. ls list the files in the current folder, you can add the attribute -a to show hidden files, using -l instead will show additional information on the files.</description>
     </item>
     <item>
-      <title>Overthewire Bandit 0</title>
+      <title>Over The Wire - Bandit 0</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-0/</link>
       <pubDate>Sun, 04 Aug 2024 19:47:52 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0/</guid>
