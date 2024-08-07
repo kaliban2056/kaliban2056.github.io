@@ -114,7 +114,7 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "archives"
-name = "archives"
+name = "archive"
 url = "/archives/"
 weight = 10
 
