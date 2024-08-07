@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Kaliban&#39;s Blog</title>
-    <link>https://kaliban2056.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Kaliban&#39;s Blog</description>
     <image>
       <title>Kaliban&#39;s Blog</title>
-      <url>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Aug 2024 15:13:23 +0200</lastBuildDate>
-    <atom:link href="https://kaliban2056.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over The Wire - Bandit 6 -&gt; 7</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-6-7/</link>
       <pubDate>Wed, 07 Aug 2024 15:13:23 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-6-7/</guid>
       <description>Task The password for the next level is stored somewhere on the server and has all of the following properties:
 owned by user bandit7 owned by group bandit6 33 bytes in size Login SSH: bandit6@bandit.labs.overthewire.org -p 2220
 Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-Theory </description>
+Theory The process to solve this task is pretty similar to the previous level, we just need the find command with some different attribute, -user [username] searches for files owned by a specific user and -group [groupname] searches for files owned by a specific group.</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 5 -&gt; 6</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-5-6/</link>
       <pubDate>Wed, 07 Aug 2024 12:31:20 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-5-6/</guid>
       <description>Task Find the only file that respect these requirements and read its content.
 The requirements are:
 human-readable 1033 bytes in size not executable Login SSH: bandit5@bandit.labs.overthewire.org -p 2220
@@ -38,9 +38,9 @@ The find command in Linux is a powerful tool that allows users to search for fil
     </item>
     <item>
       <title>Over The Wire - Bandit 4 -&gt; 5</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-4-5/</link>
       <pubDate>Wed, 07 Aug 2024 11:50:31 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-4-5/</guid>
       <description>Task Find the only human-readable file inside the inhere directory.
 Login SSH: bandit4@bandit.labs.overthewire.org -p 2220
 Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
@@ -49,9 +49,9 @@ Solution SSH in to the remote host again and go to the inhere directory.</descri
     </item>
     <item>
       <title>Over The Wire - Bandit 3 -&gt; 4</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-3-4/</link>
       <pubDate>Wed, 07 Aug 2024 11:40:36 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-3-4/</guid>
       <description>Task Find and read the content of the hidden file in the inhere directory.
 Login SSH: bandit3@bandit.labs.overthewire.org -p 2220
 Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
@@ -59,9 +59,9 @@ Theory To find an hidden file in a linux filesystem is really easy, we can use t
     </item>
     <item>
       <title>Over The Wire - Bandit 2 -&gt; 3</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-2-3/</link>
       <pubDate>Tue, 06 Aug 2024 17:51:53 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-2-3/</guid>
       <description>Task Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.
 Login SSH: bandit2@bandit.labs.overthewire.org -p 2220
 Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
@@ -70,9 +70,9 @@ Solution Log in to the remote host with the credentials from the last level. ~$:
     </item>
     <item>
       <title>Over The Wire - Bandit 1 -&gt; 2</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-1-2/</link>
       <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-1-2/</guid>
       <description>Task Read the content of the file called &amp;ldquo;-&amp;rdquo;
 Login SSH: bandit1@bandit.labs.overthewire.org -p 2220
 Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
@@ -81,9 +81,9 @@ Solution We log in to the remote host with the right credentials ~$: ssh bandit1
     </item>
     <item>
       <title>Over The Wire - Bandit 0 -&gt; 1</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-0-1/</link>
       <pubDate>Sun, 04 Aug 2024 19:51:15 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-0-1/</guid>
       <description>Task Find the file readme stored in the filesystem.
 Login SSH: bandit0@bandit.labs.overthewire.org -p 2220
 Password: bandit0
@@ -92,18 +92,18 @@ pwd this command show the name of the working directory, the directory you&amp;r
     </item>
     <item>
       <title>Over The Wire - Bandit 0</title>
-      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0/</link>
+      <link>http://localhost:1313/posts/overthewire-bandit-0/</link>
       <pubDate>Sun, 04 Aug 2024 19:47:52 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0/</guid>
+      <guid>http://localhost:1313/posts/overthewire-bandit-0/</guid>
       <description>Introduction OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.
 The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.
 I worked through the levels and decided to write a walkthrough for my blog.</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>https://kaliban2056.github.io/posts/welcome/</link>
+      <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Sat, 03 Aug 2024 12:28:26 +0200</pubDate>
-      <guid>https://kaliban2056.github.io/posts/welcome/</guid>
+      <guid>http://localhost:1313/posts/welcome/</guid>
       <description>Hi there, Kaliban&amp;rsquo;s here,
 This space is all about technology, cybersecurity, open-source software, and decentralized networks. I’ll be sharing my experiences and insights to help you understand and explore these areas.
 This blog is also a personal challenge for me. It’s a chance to build something new and stay consistent with it. I’m stepping out of my comfort zone to see how well I can manage and maintain this project.</description>
