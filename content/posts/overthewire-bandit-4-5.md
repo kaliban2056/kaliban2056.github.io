@@ -23,7 +23,7 @@ To find what file is human-readable we can check the type of data inside the fil
 
 1. SSH in to the remote host again and go to the inhere directory.
 
-2. Use the file command to find what file is human-readable and read his content.
+2. Use the file command to find what file is human-readable and read its content.
 
 ```
 ~$: ssh bandit4@bandit.labs.overthewire.org -p 2220

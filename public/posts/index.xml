@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 11:50:31 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 12:31:20 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Over The Wire - Bandit 5 -&gt; 6</title>
+      <link>http://localhost:1313/posts/overthewire-bandit-5-6/</link>
+      <pubDate>Wed, 07 Aug 2024 12:31:20 +0200</pubDate>
+      <guid>http://localhost:1313/posts/overthewire-bandit-5-6/</guid>
+      <description>Task Find the only file that respect these requirements and read its content.
+The requirements are:
+human-readable 1033 bytes in size not executable Login SSH: bandit5@bandit.labs.overthewire.org -p 2220
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+Theory To solve this task, we&amp;rsquo;ll use a combination of basic Linux commands to search for and identify the file with the specified properties. Let&amp;rsquo;s break down the key commands we&amp;rsquo;ll be using:
+find Command
+The find command in Linux is a powerful tool that allows users to search for files and directories based on various criteria.</description>
+    </item>
     <item>
       <title>Over The Wire - Bandit 4 -&gt; 5</title>
       <link>http://localhost:1313/posts/overthewire-bandit-4-5/</link>
@@ -42,7 +55,7 @@ Theory To find an hidden file in a linux filesystem is really easy, we can use t
       <description>Task Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.
 Login SSH: bandit2@bandit.labs.overthewire.org -p 2220
 Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-Theory We can&amp;rsquo;t read a file that has a space in his filename normally. To read it we can simply put the name of the file between quotes &amp;quot;filname&amp;quot; and then we can read it.
+Theory We can&amp;rsquo;t read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes &amp;quot;filname&amp;quot; and then we can read it.
 Solution Log in to the remote host with the credentials from the last level. ~$: ssh bandit2@bandit.</description>
     </item>
     <item>

@@ -17,7 +17,7 @@ Password: `263JGJPfgU6LtdEvgfWU1XP5yac29mFx`
 
 # Theory
 
-We can't read a file that has a space in his filename normally. To read it we can simply put the name of the file between quotes `"filname"` and then we can read it.
+We can't read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes `"filname"` and then we can read it.
 
 # Solution
 
