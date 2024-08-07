@@ -98,7 +98,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
+  URL = "https://github.com/kaliban2056/kaliban2056.github.io/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
@@ -129,6 +129,12 @@ identifier = "about"
 name = "about"
 url = "/about/"
 weight = 30
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 40
 
 [markup.highlight]
 noClasses = false
