@@ -1,5 +1,5 @@
 +++
-title = 'Overthewire Bandit 3 -> 4'
+title = 'Over The Wire - Bandit 3 -> 4'
 date = 2024-08-07T11:40:36+02:00
 draft = false
 tags = ["cyber security", "bandit", "over the wire"]
