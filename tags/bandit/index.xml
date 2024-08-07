@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 12:31:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 15:13:23 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/bandit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Over The Wire - Bandit 6 -&gt; 7</title>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</link>
+      <pubDate>Wed, 07 Aug 2024 15:13:23 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</guid>
+      <description>Task The password for the next level is stored somewhere on the server and has all of the following properties:
+owned by user bandit7 owned by group bandit6 33 bytes in size Login SSH: bandit6@bandit.labs.overthewire.org -p 2220
+Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+Theory </description>
+    </item>
     <item>
       <title>Over The Wire - Bandit 5 -&gt; 6</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</link>
