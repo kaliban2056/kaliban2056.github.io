@@ -18,7 +18,11 @@
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</link>
       <pubDate>Wed, 07 Aug 2024 11:50:31 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</guid>
-      <description></description>
+      <description>Task Find the only human-readable file inside the inhere directory.
+Login SSH: bandit4@bandit.labs.overthewire.org -p 2220
+Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+Theory To find what file is human-readable we can check the type of data inside the file. To do that we can use the file command, some examples would be: ASCII text, directory, POSIX tar archive. Trying to read a non human-readable file would show something like this in the output l�����]�a߯-@gQ�÷�wz�P�ߠy�.
+Solution SSH in to the remote host again and go to the inhere directory.</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 3 -&gt; 4</title>
@@ -26,7 +30,7 @@
       <pubDate>Wed, 07 Aug 2024 11:40:36 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</guid>
       <description>Task Find and read the content of the hidden file in the inhere directory.
-SSH: ssh bandit3@bandit.labs.overthewire.org -p 2220
+Login SSH: bandit3@bandit.labs.overthewire.org -p 2220
 Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 Theory To find an hidden file in a linux filesystem is really easy, we can use the ls command to list every file in the directory adding to it the -a attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.</description>
     </item>
@@ -36,7 +40,7 @@ Theory To find an hidden file in a linux filesystem is really easy, we can use t
       <pubDate>Tue, 06 Aug 2024 17:51:53 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</guid>
       <description>Task Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.
-SSH: ssh bandit2@bandit.labs.overthewire.org -p 2220
+Login SSH: bandit2@bandit.labs.overthewire.org -p 2220
 Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 Theory We can&amp;rsquo;t read a file that has a space in his filename normally. To read it we can simply put the name of the file between quotes &amp;quot;filname&amp;quot; and then we can read it.
 Solution Log in to the remote host with the credentials from the last level. ~$: ssh bandit2@bandit.</description>
@@ -47,7 +51,7 @@ Solution Log in to the remote host with the credentials from the last level. ~$:
       <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
       <description>Task Read the content of the file called &amp;ldquo;-&amp;rdquo;
-SSH: bandit1@bandit.labs.overthewire.org -p 2220
+Login SSH: bandit1@bandit.labs.overthewire.org -p 2220
 Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 Theory To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file ./.
 Solution We log in to the remote host with the right credentials ~$: ssh bandit1@bandit.labs.overthewire.org -p 2220 Search for the file and read it. bandit1@bandit~$: ls - bandit1@bandit~$: cat ./- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx We can now proceed to the next challenge.</description>
@@ -58,7 +62,7 @@ Solution We log in to the remote host with the right credentials ~$: ssh bandit1
       <pubDate>Sun, 04 Aug 2024 19:51:15 +0200</pubDate>
       <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</guid>
       <description>Task Find the file readme stored in the filesystem.
-SSH: bandit0@bandit.labs.overthewire.org -p 2220
+Login SSH: bandit0@bandit.labs.overthewire.org -p 2220
 Password: bandit0
 Theory After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:
 pwd this command show the name of the working directory, the directory you&amp;rsquo;re in right now. ls list the files in the current folder, you can add the attribute -a to show hidden files, using -l instead will show additional information on the files.</description>
