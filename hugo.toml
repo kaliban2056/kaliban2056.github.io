@@ -114,25 +114,25 @@ SiteVerificationTag = "XYZabc"
 
 [[menu.main]]
 identifier = "archives"
-name = "archive"
+name = "Archive"
 url = "/archives/"
 weight = 10
 
 [[menu.main]]
 identifier = "projects"
-name = "projects"
+name = "Projects"
 url = "/projects/"
 weight = 20
 
 [[menu.main]]
 identifier = "tags"
-name = "tags"
+name = "Tags"
 url = "/tags/"
 weight = 30
 
 [[menu.main]]
 identifier = "about"
-name = "about"
+name = "About"
 url = "/about/"
 weight = 40
 
