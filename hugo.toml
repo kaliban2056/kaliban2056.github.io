@@ -113,9 +113,9 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
+identifier = "archives"
+name = "archives"
+url = "/archives/"
 weight = 10
 
 [[menu.main]]
@@ -125,15 +125,15 @@ url = "/projects/"
 weight = 20
 
 [[menu.main]]
-identifier = "about"
-name = "about"
-url = "/about/"
+identifier = "tags"
+name = "tags"
+url = "/tags/"
 weight = 30
 
 [[menu.main]]
-identifier = "archives"
-name = "archives"
-url = "/archives/"
+identifier = "about"
+name = "about"
+url = "/about/"
 weight = 40
 
 [markup.highlight]
