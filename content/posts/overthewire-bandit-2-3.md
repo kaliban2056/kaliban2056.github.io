@@ -28,10 +28,10 @@ We can't read a file that has a space in his filename normally. To read it we ca
 2. Search for the file and read his content.
 
 ```
-~$: ls
+bandit2@bandit~$: ls
 spaces in this filename
 
-~$: cat "spaces in this filename"
+bandit2@bandit~$: cat "spaces in this filename"
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
 

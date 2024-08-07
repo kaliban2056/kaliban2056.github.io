@@ -25,7 +25,8 @@ After loggin in the remote host you can use a set of commands to understand wher
 1. We log in with SSH using the information above.
 
 2. Make sure the `readme` file is in the directory.
-```bash
+
+```
 bandit0@bandit:~$ ls 
 readme
 ```
