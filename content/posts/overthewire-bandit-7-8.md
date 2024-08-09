@@ -17,7 +17,7 @@ Password: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
 
 # Theory
 
-To solve this level and move one we just need to use one command, the `grep` command scan search
+To solve this level and move on we just need to use one command, the `grep` command scan search
 
 # Solution
 
