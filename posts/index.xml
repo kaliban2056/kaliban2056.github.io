@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 17:01:48 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 11:44:59 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back Online</title>
+      <link>https://kaliban2056.github.io/posts/back-online/</link>
+      <pubDate>Fri, 20 Sep 2024 11:44:59 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/back-online/</guid>
+      <description>Hello everyone,
+After taking a break from the blog, I’m back and ready to dive into new content. During the time away, I focused on expanding my skillset—learning Go (Golang) and working on various projects while also navigating the job market.
+Now that I’m back, I plan to resume regular posts, while also sharing insights from the projects I’ve been working on. You can expect:
+Continued coverage of cybersecurity like over the wire and stuff like that Project highlights and technical breakdowns Thanks for your patience.</description>
+    </item>
     <item>
       <title>Over The Wire - Bandit 7 -&gt; 8</title>
       <link>https://kaliban2056.github.io/posts/overthewire-bandit-7-8/</link>
