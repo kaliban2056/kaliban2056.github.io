@@ -114,6 +114,8 @@ jobs:
                   publish_dir: ./public
 ```
 
+You can also look at my `deploy.yml` in `.github/workflows`.
+
 NOTE: Never share sensitive data such as github tokens in the GitHub actions workflow, you can read more [here](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions).
 
 # Contributions
