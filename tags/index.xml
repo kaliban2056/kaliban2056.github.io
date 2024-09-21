@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 17:01:48 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 10:39:05 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>networking</title>
+      <link>https://kaliban2056.github.io/tags/networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kaliban2056.github.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>programming</title>
+      <link>https://kaliban2056.github.io/tags/programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kaliban2056.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://kaliban2056.github.io/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kaliban2056.github.io/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>bandit</title>
       <link>https://kaliban2056.github.io/tags/bandit/</link>

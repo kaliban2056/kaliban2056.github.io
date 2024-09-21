@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on Kaliban&#39;s Blog</title>
+    <link>https://kaliban2056.github.io/tags/python/</link>
+    <description>Recent content in python on Kaliban&#39;s Blog</description>
+    <image>
+      <title>Kaliban&#39;s Blog</title>
+      <url>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.112.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Sep 2024 10:39:05 +0200</lastBuildDate>
+    <atom:link href="https://kaliban2056.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Simple Network Packet Sniffer With Python</title>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</link>
+      <pubDate>Sat, 21 Sep 2024 10:39:05 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
+      <description>If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project. In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets. This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.
+Project Overview The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.</description>
+    </item>
+  </channel>
+</rss>
