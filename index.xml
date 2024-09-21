@@ -141,7 +141,7 @@ I worked through the levels and decided to write a walkthrough for my blog.</des
       <pubDate>Sat, 03 Aug 2024 17:37:22 +0200</pubDate>
       <guid>https://kaliban2056.github.io/projects/</guid>
       <description>These are my projects that you can find on GitHub:
-Packet Sniffer: Captures and decodes Ethernet, IPv4, ICMP, TCP, and UDP traffic using raw sockets. TCP Chat Room: Server-client chat with real-time messaging and nickname support, using threading and basic socket programming. kaliban2056.github.io: The source code of this page. go API: A simple API made in Go. </description>
+go API: A simple API made in Go. Packet Sniffer: Captures and decodes Ethernet, IPv4, ICMP, TCP, and UDP traffic using raw sockets. TCP Chat Room: Server-client chat with real-time messaging and nickname support, using threading and basic socket programming. kaliban2056.github.io: The source code of this page. </description>
     </item>
     <item>
       <title>Welcome</title>
