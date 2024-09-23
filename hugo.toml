@@ -19,9 +19,9 @@ minifyOutput = true
 env = "production"
 title = "Kaliban's Blog"
 description = "Cyber Security | Development | Self Hosting"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
+keywords = ["Blog", "Portfolio", "PaperMod"]
 author = "Kaliban"
-images = [ "link or path of image for opengraph, twitter-cards>" ]
+images = ["link or path of image for opengraph, twitter-cards>"]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -41,42 +41,43 @@ hideSummary = false
 showtoc = false
 tocopen = false
 
-  [params.assets]
-  favicon = "/images/favicon.svg"
-  favicon16x16 = "/images/favicon-16x16.svg"
-  favicon32x32 = "/images/favicon-32x32.svg"
+[params.assets]
+favicon = "/images/favicon.svg"
+favicon16x16 = "/images/favicon-16x16.svg"
+favicon32x32 = "/images/favicon-32x32.svg"
 
-  [params.label]
-  text = "Kaliban's Blog"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
+[params.label]
+text = "Kaliban's Blog"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
 
-  [params.homeInfoParams]
-  Title = "Hello visitor!"
-  Content = "Welcome to my corner of the interner, journey with me through the realms of tech, security, and programming innovation."
+[params.homeInfoParams]
+Title = "Hello visitor!"
+Content = "Welcome to my corner of the interner, journey with me through the realms of tech, security, and programming innovation."
 
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/kaliban2056"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/kaliban2056"
 
-   [[params.socialIcons]]
-  name = "discord"
-  url = "https://discordapp.com/users/509268181509079072"
+[[params.socialIcons]]
+name = "discord"
+url = "https://discordapp.com/users/509268181509079072"
 
-  [[params.socialIcons]]
-  name = "matrix"
-  url = "https://matrix.to/#/@kaliban_205:matrix.org"
+[[params.socialIcons]]
+name = "matrix"
+url = "https://matrix.to/#/@kaliban_205:matrix.org"
+
+[[params.socialIcons]]
+name = "bitcoin"
+url = "bc1qt5n3jkra4hzn7gfyakpre6pzdefywd5vvqs3x2"
+
 
 # [[params.socialIcons]]
 #  name = "buymeacoffee"
 #  url = "https://buymeacoffee.com"
-  
-#  [[params.socialIcons]]
-#  name = "monero"
-#  url = ""
 
 #  [[params.socialIcons]]
-#  name = "bitcoin"
+#  name = "monero"
 #  url = ""
 
 #  [[params.socialIcons]]
@@ -92,25 +93,25 @@ SiteVerificationTag = "XYZabc"
 [params.analytics.yandex]
 SiteVerificationTag = "XYZabc"
 
-  [params.cover]
-  hidden = true
-  hiddenInList = true
-  hiddenInSingle = true
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
 
-  [params.editPost]
-  URL = "https://github.com/kaliban2056/kaliban2056.github.io/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
+[params.editPost]
+URL = "https://github.com/kaliban2056/kaliban2056.github.io/content"
+Text = "Suggest Changes"
+appendFilePath = true
 
-  [params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  location = 0
-  distance = 1_000
-  threshold = 0.4
-  minMatchCharLength = 0
-  limit = 10
-  keys = [ "title", "permalink", "summary", "content" ]
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+limit = 10
+keys = ["title", "permalink", "summary", "content"]
 
 [[menu.main]]
 identifier = "archives"
