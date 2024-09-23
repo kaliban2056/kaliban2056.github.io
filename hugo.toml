@@ -69,7 +69,7 @@ url = "https://matrix.to/#/@kaliban_205:matrix.org"
 
 [[params.socialIcons]]
 name = "bitcoin"
-url = "bc1qt5n3jkra4hzn7gfyakpre6pzdefywd5vvqs3x2"
+url = "bitcoin:bc1qt5n3jkra4hzn7gfyakpre6pzdefywd5vvqs3x2"
 
 
 # [[params.socialIcons]]
