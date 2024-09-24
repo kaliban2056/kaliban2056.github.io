@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 10:39:05 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Simple Multi-Client Chat Application in Python</title>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</link>
+      <pubDate>Mon, 23 Sep 2024 15:41:49 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
+      <description>In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s socket and threading modules. This project allows multiple clients to connect to a server and communicate in real-time. It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.
+Project Overview The project consists of two main scripts:
+server.py: Manages client connections and broadcast messages to all clients. client.</description>
+    </item>
     <item>
       <title>Building a Simple Network Packet Sniffer With Python</title>
       <link>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</link>
