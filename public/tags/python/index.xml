@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Kaliban&#39;s Blog</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Kaliban&#39;s Blog</description>
+    <image>
+      <title>Kaliban&#39;s Blog</title>
+      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Simple Multi-Client Chat Application in Python</title>
+      <link>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</link>
+      <pubDate>Mon, 23 Sep 2024 15:41:49 +0200</pubDate>
+      <guid>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
+      <description>In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s socket and threading modules. This project allows multiple clients to connect to a server and communicate in real-time. It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.
+Project Overview The project consists of two main scripts:
+server.py: Manages client connections and broadcast messages to all clients. client.</description>
+    </item>
+    <item>
+      <title>Building a Simple Network Packet Sniffer With Python</title>
+      <link>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</link>
+      <pubDate>Sat, 21 Sep 2024 10:39:05 +0200</pubDate>
+      <guid>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
+      <description>If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project. In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets. This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.
+Project Overview The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.</description>
+    </item>
+  </channel>
+</rss>

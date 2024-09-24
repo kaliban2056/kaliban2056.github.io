@@ -11,8 +11,46 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 15:13:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Simple Multi-Client Chat Application in Python</title>
+      <link>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</link>
+      <pubDate>Mon, 23 Sep 2024 15:41:49 +0200</pubDate>
+      <guid>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
+      <description>In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s socket and threading modules. This project allows multiple clients to connect to a server and communicate in real-time. It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.
+Project Overview The project consists of two main scripts:
+server.py: Manages client connections and broadcast messages to all clients. client.</description>
+    </item>
+    <item>
+      <title>Building a Simple Network Packet Sniffer With Python</title>
+      <link>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</link>
+      <pubDate>Sat, 21 Sep 2024 10:39:05 +0200</pubDate>
+      <guid>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
+      <description>If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project. In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets. This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.
+Project Overview The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.</description>
+    </item>
+    <item>
+      <title>Back Online</title>
+      <link>http://localhost:1313/posts/back-online/</link>
+      <pubDate>Fri, 20 Sep 2024 11:44:59 +0200</pubDate>
+      <guid>http://localhost:1313/posts/back-online/</guid>
+      <description>Hello everyone,
+After taking a break from the blog, I’m back and ready to dive into new content. During the time away, I focused on expanding my skillset—learning Go (Golang) and working on various projects while also navigating the job market.
+Now that I’m back, I plan to resume regular posts, while also sharing insights from the projects I’ve been working on. You can expect:
+Continued coverage of cybersecurity like over the wire and stuff like that Project highlights and technical breakdowns Thanks for your patience.</description>
+    </item>
+    <item>
+      <title>Over The Wire - Bandit 7 -&gt; 8</title>
+      <link>http://localhost:1313/posts/overthewire-bandit-7-8/</link>
+      <pubDate>Wed, 07 Aug 2024 17:01:48 +0200</pubDate>
+      <guid>http://localhost:1313/posts/overthewire-bandit-7-8/</guid>
+      <description>Task The password for the next level is stored in the file data.txt next to the word millionth.
+Login SSH: bandit7@bandit.labs.overthewire.org -p 2220
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Theory To solve this level and move on we just need to use one command, the grep command scan search
+Solution grep &amp;ldquo;millionth&amp;rdquo; data.txt millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc</description>
+    </item>
     <item>
       <title>Over The Wire - Bandit 6 -&gt; 7</title>
       <link>http://localhost:1313/posts/overthewire-bandit-6-7/</link>
@@ -112,7 +150,7 @@ I worked through the levels and decided to write a walkthrough for my blog.</des
       <pubDate>Sat, 03 Aug 2024 17:37:22 +0200</pubDate>
       <guid>http://localhost:1313/projects/</guid>
       <description>These are my projects that you can find on GitHub:
-Packet Sniffer: Captures and decodes Ethernet, IPv4, ICMP, TCP, and UDP traffic using raw sockets. TCP Chat Room: Server-client chat with real-time messaging and nickname support, using threading and basic socket programming. kaliban2056.github.io: The source code of this page. </description>
+go API: A simple API made in Go. Packet Sniffer: Captures and decodes Ethernet, IPv4, ICMP, TCP, and UDP traffic using raw sockets. TCP Chat Room: Server-client chat with real-time messaging and nickname support, using threading and basic socket programming. kaliban2056.github.io: The source code of this page. </description>
     </item>
     <item>
       <title>Welcome</title>
