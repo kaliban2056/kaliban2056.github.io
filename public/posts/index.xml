@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 11:35:58 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing a New Blog Series on Cryptocurrencies</title>
+      <link>http://localhost:1313/posts/introducing-a-new-blog-series-on-cryptocurrencies/</link>
+      <pubDate>Wed, 25 Sep 2024 11:35:58 +0200</pubDate>
+      <guid>http://localhost:1313/posts/introducing-a-new-blog-series-on-cryptocurrencies/</guid>
+      <description>I&amp;rsquo;m excited to announce a new series of posts where I&amp;rsquo;ll be diving into the world of cryptocurrencies and everything that comes with them. From how Bitcoin and Ethereum work to exploring decentralized finance (DeFi), blockchain technology, NFTs, and much more – this series will cover a wide range of topics related to digital currencies.
+What to Expect Cryptocurrencies are transforming how we think about finance, technology, and even the ownership of digital assets.</description>
+    </item>
     <item>
       <title>Building a Simple Multi-Client Chat Application in Python</title>
       <link>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</link>

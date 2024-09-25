@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 11:35:58 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain</title>
+      <link>http://localhost:1313/tags/blockchain/</link>
+      <pubDate>Wed, 25 Sep 2024 11:35:58 +0200</pubDate>
+      <guid>http://localhost:1313/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptocurrencies</title>
+      <link>http://localhost:1313/tags/cryptocurrencies/</link>
+      <pubDate>Wed, 25 Sep 2024 11:35:58 +0200</pubDate>
+      <guid>http://localhost:1313/tags/cryptocurrencies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decentralized Finance (DeFi)</title>
+      <link>http://localhost:1313/tags/decentralized-finance-defi/</link>
+      <pubDate>Wed, 25 Sep 2024 11:35:58 +0200</pubDate>
+      <guid>http://localhost:1313/tags/decentralized-finance-defi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Networking</title>
       <link>http://localhost:1313/tags/networking/</link>
