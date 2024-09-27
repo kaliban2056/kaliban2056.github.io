@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Kaliban&#39;s Blog</title>
+    <link>https://kaliban2056.github.io/tags/go/</link>
+    <description>Recent content in Go on Kaliban&#39;s Blog</description>
+    <image>
+      <title>Kaliban&#39;s Blog</title>
+      <url>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kaliban2056.github.io/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.112.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Sep 2024 11:14:39 +0200</lastBuildDate>
+    <atom:link href="https://kaliban2056.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Go Api for Handling User Coin Balances</title>
+      <link>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</link>
+      <pubDate>Thu, 26 Sep 2024 11:14:39 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</guid>
+      <description>In this post, I&amp;rsquo;ll walk through a recent project where I built a RESTful API in Go that manages user authentication and handles requests for checking user coin balances. The project showcases how to create an API with Go&amp;rsquo;s powerful capabilities, using the chi router, middleware for authrization, and handling mock database interactions.
+Project Overview This API enables users to retrieve their coin balances after passing through authorization checks. It stimulates interaction with a mock database that stores login details and coin balances for different users.</description>
+    </item>
+  </channel>
+</rss>

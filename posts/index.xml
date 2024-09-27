@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Sep 2024 11:35:58 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 Sep 2024 11:14:39 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Go Api for Handling User Coin Balances</title>
+      <link>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</link>
+      <pubDate>Thu, 26 Sep 2024 11:14:39 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</guid>
+      <description>In this post, I&amp;rsquo;ll walk through a recent project where I built a RESTful API in Go that manages user authentication and handles requests for checking user coin balances. The project showcases how to create an API with Go&amp;rsquo;s powerful capabilities, using the chi router, middleware for authrization, and handling mock database interactions.
+Project Overview This API enables users to retrieve their coin balances after passing through authorization checks. It stimulates interaction with a mock database that stores login details and coin balances for different users.</description>
+    </item>
     <item>
       <title>Introducing a New Blog Series on Cryptocurrencies</title>
       <link>https://kaliban2056.github.io/posts/introducing-a-new-blog-series-on-cryptocurrencies/</link>
