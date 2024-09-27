@@ -1,11 +1,11 @@
 +++
 title = 'Building a Go Api for Handling User Coin Balances'
 date = 2024-09-26T11:14:39+02:00
-draft = true
+draft = false
 tags = ["Go", "Development", "WebDevelopment", "API"]
 +++
 
-In this post, I'll walk through a recent project where I built a **RESTful API in Go** that manages user authentication and handles  requests for checking user coin balances.
+In this post, I'll walk through a recent project where I built a **RESTful API in Go** that manages user authentication and handles requests for checking user coin balances.
 The project showcases how to create an API with Go's powerful capabilities, using the `chi` router, middleware for authrization, and handling mock database interactions.
 
 ## Project Overview
@@ -14,10 +14,10 @@ This API enables users to retrieve their coin balances after passing through aut
 
 ### Key Features:
 
-- **User Authentication**: Validates requests using a token passed in the headers.
-- **Get Coin Balance**: Allows authorized users to request their current coin balance.
-- **Mock Database Integration**: Uses an in-memory mock database to simulate real-world database calls.
-- **Error Handling**: Responds with appropriate HTTP status codes and messages for errors.
+-   **User Authentication**: Validates requests using a token passed in the headers.
+-   **Get Coin Balance**: Allows authorized users to request their current coin balance.
+-   **Mock Database Integration**: Uses an in-memory mock database to simulate real-world database calls.
+-   **Error Handling**: Responds with appropriate HTTP status codes and messages for errors.
 
 ## Code Breakdown
 
@@ -94,7 +94,7 @@ The `mockDB` struct simulates delay (`time.sleep()`) to mimic real database late
 
 ### Prerequisites:
 
-- Go installed on your machine.
+-   Go installed on your machine.
 
 ### Steps:
 
