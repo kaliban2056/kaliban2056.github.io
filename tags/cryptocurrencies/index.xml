@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.112.4</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Sep 2024 11:35:58 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 22:56:55 +0200</lastBuildDate>
     <atom:link href="https://kaliban2056.github.io/tags/cryptocurrencies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to Cryptocurrencies</title>
+      <link>https://kaliban2056.github.io/posts/an-introduction-to-cryptocurrencies/</link>
+      <pubDate>Mon, 30 Sep 2024 22:56:55 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/an-introduction-to-cryptocurrencies/</guid>
+      <description>This post is the first in a series designed to help beginners understand cryptocurrencies and the underlying technology that powers them, such as blockchain. Cryptocurrencies are a new way of exchanging value online without the need for intermediaries like banks or financial institutions.
+We’ll start by exploring the basics of blockchain technology and how it applies to popular cryptocurrencies like Bitcoin. What is Blockchain?
+Blockchain is a decentralized system for recording information.</description>
+    </item>
     <item>
       <title>Introducing a New Blog Series on Cryptocurrencies</title>
       <link>https://kaliban2056.github.io/posts/introducing-a-new-blog-series-on-cryptocurrencies/</link>
