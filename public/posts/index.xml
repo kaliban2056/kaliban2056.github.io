@@ -1,158 +1,124 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kaliban&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://kaliban2056.github.io/posts/</link>
     <description>Recent content in Posts on Kaliban&#39;s Blog</description>
-    <image>
-      <title>Kaliban&#39;s Blog</title>
-      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2024 11:35:58 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2024 22:56:55 +0200</lastBuildDate>
+    <atom:link href="https://kaliban2056.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to Cryptocurrencies</title>
+      <link>https://kaliban2056.github.io/posts/an-introduction-to-cryptocurrencies/</link>
+      <pubDate>Mon, 30 Sep 2024 22:56:55 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/an-introduction-to-cryptocurrencies/</guid>
+      <description>&lt;p&gt;This post is the first in a series designed to help beginners understand cryptocurrencies and the underlying technology that powers them, such as blockchain. Cryptocurrencies are a new way of exchanging value online without the need for intermediaries like banks or financial institutions.&lt;/p&gt;&#xA;&lt;p&gt;We’ll start by exploring the basics of blockchain technology and how it applies to popular cryptocurrencies like Bitcoin.&#xA;What is Blockchain?&lt;/p&gt;&#xA;&lt;p&gt;Blockchain is a decentralized system for recording information. Unlike traditional systems where data is stored in a single place, blockchain keeps copies of its records across many computers (nodes), which makes it more secure and tamper-resistant. Here are the key features:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building a Go Api for Handling User Coin Balances</title>
+      <link>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</link>
+      <pubDate>Thu, 26 Sep 2024 11:14:39 +0200</pubDate>
+      <guid>https://kaliban2056.github.io/posts/building-a-go-api-for-handling-user-coin-balances/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll walk through a recent project where I built a &lt;strong&gt;RESTful API in Go&lt;/strong&gt; that manages user authentication and handles requests for checking user coin balances.&#xA;The project showcases how to create an API with Go&amp;rsquo;s powerful capabilities, using the &lt;code&gt;chi&lt;/code&gt; router, middleware for authrization, and handling mock database interactions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This API enables users to retrieve their coin balances after passing through authorization checks. It stimulates interaction with a mock database that stores login details and coin balances for different users.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Introducing a New Blog Series on Cryptocurrencies</title>
-      <link>http://localhost:1313/posts/introducing-a-new-blog-series-on-cryptocurrencies/</link>
+      <link>https://kaliban2056.github.io/posts/introducing-a-new-blog-series-on-cryptocurrencies/</link>
       <pubDate>Wed, 25 Sep 2024 11:35:58 +0200</pubDate>
-      <guid>http://localhost:1313/posts/introducing-a-new-blog-series-on-cryptocurrencies/</guid>
-      <description>I&amp;rsquo;m excited to announce a new series of posts where I&amp;rsquo;ll be diving into the world of cryptocurrencies and everything that comes with them. From how Bitcoin and Ethereum work to exploring decentralized finance (DeFi), blockchain technology, NFTs, and much more – this series will cover a wide range of topics related to digital currencies.
-What to Expect Cryptocurrencies are transforming how we think about finance, technology, and even the ownership of digital assets.</description>
+      <guid>https://kaliban2056.github.io/posts/introducing-a-new-blog-series-on-cryptocurrencies/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to announce a new series of posts where I&amp;rsquo;ll be diving into the world of cryptocurrencies and everything that comes with them. From how Bitcoin and Ethereum work to exploring decentralized finance (DeFi), blockchain technology, NFTs, and much more – this series will cover a wide range of topics related to digital currencies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Cryptocurrencies are transforming how we think about finance, technology, and even the ownership of digital assets. Whether you’re new to crypto or looking to deepen your understanding, I’ll be covering topics such as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Simple Multi-Client Chat Application in Python</title>
-      <link>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</link>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</link>
       <pubDate>Mon, 23 Sep 2024 15:41:49 +0200</pubDate>
-      <guid>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
-      <description>In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s socket and threading modules. This project allows multiple clients to connect to a server and communicate in real-time. It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.
-Project Overview The project consists of two main scripts:
-server.py: Manages client connections and broadcast messages to all clients. client.</description>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s &lt;code&gt;socket&lt;/code&gt; and &lt;code&gt;threading&lt;/code&gt; modules.&#xA;This project allows multiple clients to connect to a server and communicate in real-time.&#xA;It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;The project consists of two main scripts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;server.py&lt;/code&gt;: Manages client connections and broadcast messages to all clients.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;client.py&lt;/code&gt;: Connects to the server, sends messages, and receives messages from other clients.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;key-featureswr&#34;&gt;Key Featureswr&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-client support&lt;/strong&gt;: The server can handle multiple clients simultaneously.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Nicknames&lt;/strong&gt;: Each client is prompted to choose a nickname upon connection.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Message broadcasting&lt;/strong&gt;: Messages from one client are shared with all others.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Join/Leave notification&lt;/strong&gt;: Clients are notified when someone joins or leaves the chat.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;server-side-code&#34;&gt;Server-Side Code&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Setting Up the Server Socket&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AF_INET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SOCK_STREAM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;listen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;socket.AF_INET&lt;/code&gt;: This specifies that we are using an IPv4 address.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;socket.SOCK_STREAM&lt;/code&gt;: We&amp;rsquo;re using TCP, which is a connection-oriented protocol.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;bind((host, port))&lt;/code&gt;: The server binds to the provided IP address and port.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;listen()&lt;/code&gt;: Starts the server, making it listen for incoming connections.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This sets up a server that listen for incoming connections. When a client connects, the server will handle communication in a separate thread.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Simple Network Packet Sniffer With Python</title>
-      <link>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</link>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</link>
       <pubDate>Sat, 21 Sep 2024 10:39:05 +0200</pubDate>
-      <guid>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
-      <description>If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project. In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets. This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.
-Project Overview The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.</description>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project.&#xA;In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets.&#xA;This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.&#xA;By using Python&amp;rsquo;s raw socket capabilities, it inspects Ethernet, IPv4, ICMP, TCP and UDP protocols.&#xA;This is ideal for understanding how these protocols work or for performing basic network diagnostics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back Online</title>
-      <link>http://localhost:1313/posts/back-online/</link>
+      <link>https://kaliban2056.github.io/posts/back-online/</link>
       <pubDate>Fri, 20 Sep 2024 11:44:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/back-online/</guid>
-      <description>Hello everyone,
-After taking a break from the blog, I’m back and ready to dive into new content. During the time away, I focused on expanding my skillset—learning Go (Golang) and working on various projects while also navigating the job market.
-Now that I’m back, I plan to resume regular posts, while also sharing insights from the projects I’ve been working on. You can expect:
-Continued coverage of cybersecurity like over the wire and stuff like that Project highlights and technical breakdowns Thanks for your patience.</description>
+      <guid>https://kaliban2056.github.io/posts/back-online/</guid>
+      <description>&lt;p&gt;Hello everyone,&lt;/p&gt;&#xA;&lt;p&gt;After taking a break from the blog, I’m back and ready to dive into new content. During the time away, I focused on expanding my skillset—learning Go (Golang) and working on various projects while also navigating the job market.&lt;/p&gt;&#xA;&lt;p&gt;Now that I’m back, I plan to resume regular posts, while also sharing insights from the projects I’ve been working on. You can expect:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Continued coverage of cybersecurity like over the wire and stuff like that&lt;/li&gt;&#xA;&lt;li&gt;Project highlights and technical breakdowns&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Thanks for your patience. Looking forward to sharing more soon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 7 -&gt; 8</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-7-8/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-7-8/</link>
       <pubDate>Wed, 07 Aug 2024 17:01:48 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-7-8/</guid>
-      <description>Task The password for the next level is stored in the file data.txt next to the word millionth.
-Login SSH: bandit7@bandit.labs.overthewire.org -p 2220
-Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-Theory To solve this level and move on we just need to use one command, the grep command scan search
-Solution grep &amp;ldquo;millionth&amp;rdquo; data.txt millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-7-8/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;The password for the next level is stored in the file &lt;code&gt;data.txt&lt;/code&gt; next to the word &lt;code&gt;millionth&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit7@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To solve this level and move on we just need to use one command, the &lt;code&gt;grep&lt;/code&gt; command scan search&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;p&gt;grep &amp;ldquo;millionth&amp;rdquo; data.txt&#xA;millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 6 -&gt; 7</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-6-7/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</link>
       <pubDate>Wed, 07 Aug 2024 15:13:23 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-6-7/</guid>
-      <description>Task The password for the next level is stored somewhere on the server and has all of the following properties:
-owned by user bandit7 owned by group bandit6 33 bytes in size Login SSH: bandit6@bandit.labs.overthewire.org -p 2220
-Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-Theory The process to solve this task is pretty similar to the previous level, we just need the find command with some different attribute, -user [username] searches for files owned by a specific user and -group [groupname] searches for files owned by a specific group.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;The password for the next level is stored somewhere on the server and has all of the following properties:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;owned by user bandit7&lt;/li&gt;&#xA;&lt;li&gt;owned by group bandit6&lt;/li&gt;&#xA;&lt;li&gt;33 bytes in size&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit6@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;HWasnPhtq9AVKe0dmk45nxy20cvUa6EG&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;The process to solve this task is pretty similar to the previous level, we just need the &lt;code&gt;find&lt;/code&gt; command with some different attribute, &lt;code&gt;-user [username]&lt;/code&gt; searches for files owned by a specific user and &lt;code&gt;-group [groupname]&lt;/code&gt; searches for files owned by a specific group.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 5 -&gt; 6</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-5-6/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</link>
       <pubDate>Wed, 07 Aug 2024 12:31:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-5-6/</guid>
-      <description>Task Find the only file that respect these requirements and read its content.
-The requirements are:
-human-readable 1033 bytes in size not executable Login SSH: bandit5@bandit.labs.overthewire.org -p 2220
-Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-Theory To solve this task, we&amp;rsquo;ll use a combination of basic Linux commands to search for and identify the file with the specified properties. Let&amp;rsquo;s break down the key commands we&amp;rsquo;ll be using:
-find Command
-The find command in Linux is a powerful tool that allows users to search for files and directories based on various criteria.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the only file that respect these requirements and read its content.&lt;/p&gt;&#xA;&lt;p&gt;The requirements are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;human-readable&lt;/li&gt;&#xA;&lt;li&gt;1033 bytes in size&lt;/li&gt;&#xA;&lt;li&gt;not executable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit5@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To solve this task, we&amp;rsquo;ll use a combination of basic Linux commands to search for and identify the file with the specified properties. Let&amp;rsquo;s break down the key commands we&amp;rsquo;ll be using:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;find&lt;/code&gt; Command&lt;/p&gt;&#xA;&lt;p&gt;The &lt;code&gt;find&lt;/code&gt; command in Linux is a powerful tool that allows users to search for files and directories based on various criteria.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 4 -&gt; 5</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-4-5/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</link>
       <pubDate>Wed, 07 Aug 2024 11:50:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-4-5/</guid>
-      <description>Task Find the only human-readable file inside the inhere directory.
-Login SSH: bandit4@bandit.labs.overthewire.org -p 2220
-Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-Theory To find what file is human-readable we can check the type of data inside the file. To do that we can use the file command, some examples would be: ASCII text, directory, POSIX tar archive. Trying to read a non human-readable file would show something like this in the output l�����]�a߯-@gQ�÷�wz�P�ߠy�.
-Solution SSH in to the remote host again and go to the inhere directory.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the only human-readable file inside the &lt;code&gt;inhere&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit4@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To find what file is human-readable we can check the type of data inside the file. To do that we can use the &lt;code&gt;file&lt;/code&gt; command, some examples would be: &lt;code&gt;ASCII text&lt;/code&gt;, &lt;code&gt;directory&lt;/code&gt;, &lt;code&gt;POSIX tar archive&lt;/code&gt;. Trying to read a non human-readable file would show something like this in the output &lt;code&gt;l�����]�a߯-@gQ�÷�wz�P�ߠy�&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;SSH in to the remote host again and go to the inhere directory.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 3 -&gt; 4</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-3-4/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</link>
       <pubDate>Wed, 07 Aug 2024 11:40:36 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-3-4/</guid>
-      <description>Task Find and read the content of the hidden file in the inhere directory.
-Login SSH: bandit3@bandit.labs.overthewire.org -p 2220
-Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-Theory To find an hidden file in a linux filesystem is really easy, we can use the ls command to list every file in the directory adding to it the -a attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find and read the content of the hidden file in the &lt;code&gt;inhere&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit3@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To find an hidden file in a linux filesystem is really easy, we can use the &lt;code&gt;ls&lt;/code&gt; command to list every file in the directory adding to it the &lt;code&gt;-a&lt;/code&gt; attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 2 -&gt; 3</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-2-3/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</link>
       <pubDate>Tue, 06 Aug 2024 17:51:53 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-2-3/</guid>
-      <description>Task Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.
-Login SSH: bandit2@bandit.labs.overthewire.org -p 2220
-Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-Theory We can&amp;rsquo;t read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes &amp;quot;filname&amp;quot; and then we can read it.
-Solution Log in to the remote host with the credentials from the last level. ~$: ssh bandit2@bandit.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit2@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;263JGJPfgU6LtdEvgfWU1XP5yac29mFx&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;We can&amp;rsquo;t read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes &lt;code&gt;&amp;quot;filname&amp;quot;&lt;/code&gt; and then we can read it.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Log in to the remote host with the credentials from the last level.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~$: ssh bandit2@bandit.labs.overthewire.org -p 2220&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Search for the file and read his content.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bandit2@bandit~$: ls&#xA;spaces in this filename&#xA;&#xA;bandit2@bandit~$: cat &amp;#34;spaces in this filename&amp;#34;&#xA;MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We can not move to the next challenge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 1 -&gt; 2</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-1-2/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</link>
       <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-1-2/</guid>
-      <description>Task Read the content of the file called &amp;ldquo;-&amp;rdquo;
-Login SSH: bandit1@bandit.labs.overthewire.org -p 2220
-Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-Theory To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file ./.
-Solution We log in to the remote host with the right credentials ~$: ssh bandit1@bandit.labs.overthewire.org -p 2220 Search for the file and read it. bandit1@bandit~$: ls - bandit1@bandit~$: cat ./- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx We can now proceed to the next challenge.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Read the content of the file called &amp;ldquo;-&amp;rdquo;&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit1@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file &lt;code&gt;./&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;We log in to the remote host with the right credentials&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~$: ssh bandit1@bandit.labs.overthewire.org -p 2220&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Search for the file and read it.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bandit1@bandit~$: ls &#xA;-&#xA;&#xA;bandit1@bandit~$: cat ./-&#xA;263JGJPfgU6LtdEvgfWU1XP5yac29mFx&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We can now proceed to the next challenge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 0 -&gt; 1</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-0-1/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</link>
       <pubDate>Sun, 04 Aug 2024 19:51:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-0-1/</guid>
-      <description>Task Find the file readme stored in the filesystem.
-Login SSH: bandit0@bandit.labs.overthewire.org -p 2220
-Password: bandit0
-Theory After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:
-pwd this command show the name of the working directory, the directory you&amp;rsquo;re in right now. ls list the files in the current folder, you can add the attribute -a to show hidden files, using -l instead will show additional information on the files.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the file &lt;code&gt;readme&lt;/code&gt; stored in the filesystem.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;bandit0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; this command show the name of the working directory, the directory you&amp;rsquo;re in right now.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; list the files in the current folder, you can add the attribute &lt;code&gt;-a&lt;/code&gt; to show hidden files, using &lt;code&gt;-l&lt;/code&gt; instead will show additional information on the files.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;cat&lt;/code&gt; read the content of a file and print them to standard output.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;We log in with SSH using the information above.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 0</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-0/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0/</link>
       <pubDate>Sun, 04 Aug 2024 19:47:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-0/</guid>
-      <description>Introduction OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.
-The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.
-I worked through the levels and decided to write a walkthrough for my blog.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.&lt;/p&gt;&#xA;&lt;p&gt;The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.&lt;/p&gt;&#xA;&lt;p&gt;I worked through the levels and decided to write a walkthrough for my blog. There are already walkthroughs on the internet, from different persons and with different solutions. However, I still decided to publish mine, to at the very least get more comfortable with writing and maybe, since my explanations and thought processes may vary from other writers, help someone understand the solutions better. Also, this way future me has a reference to look back at.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://kaliban2056.github.io/posts/welcome/</link>
       <pubDate>Sat, 03 Aug 2024 12:28:26 +0200</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>Hi there, Kaliban&amp;rsquo;s here,
-This space is all about technology, cybersecurity, open-source software, and decentralized networks. I’ll be sharing my experiences and insights to help you understand and explore these areas.
-This blog is also a personal challenge for me. It’s a chance to build something new and stay consistent with it. I’m stepping out of my comfort zone to see how well I can manage and maintain this project.</description>
+      <guid>https://kaliban2056.github.io/posts/welcome/</guid>
+      <description>&lt;p&gt;Hi there, Kaliban&amp;rsquo;s here,&lt;/p&gt;&#xA;&lt;p&gt;This space is all about technology, cybersecurity, open-source software, and decentralized networks. I’ll be sharing my experiences and insights to help you understand and explore these areas.&lt;/p&gt;&#xA;&lt;p&gt;This blog is also a personal challenge for me. It’s a chance to build something new and stay consistent with it. I’m stepping out of my comfort zone to see how well I can manage and maintain this project.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

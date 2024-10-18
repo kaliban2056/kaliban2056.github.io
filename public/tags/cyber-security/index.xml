@@ -1,114 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyber Security on Kaliban&#39;s Blog</title>
-    <link>http://localhost:1313/tags/cyber-security/</link>
+    <link>https://kaliban2056.github.io/tags/cyber-security/</link>
     <description>Recent content in Cyber Security on Kaliban&#39;s Blog</description>
-    <image>
-      <title>Kaliban&#39;s Blog</title>
-      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Aug 2024 17:01:48 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kaliban2056.github.io/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Over The Wire - Bandit 7 -&gt; 8</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-7-8/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-7-8/</link>
       <pubDate>Wed, 07 Aug 2024 17:01:48 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-7-8/</guid>
-      <description>Task The password for the next level is stored in the file data.txt next to the word millionth.
-Login SSH: bandit7@bandit.labs.overthewire.org -p 2220
-Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-Theory To solve this level and move on we just need to use one command, the grep command scan search
-Solution grep &amp;ldquo;millionth&amp;rdquo; data.txt millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-7-8/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;The password for the next level is stored in the file &lt;code&gt;data.txt&lt;/code&gt; next to the word &lt;code&gt;millionth&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit7@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To solve this level and move on we just need to use one command, the &lt;code&gt;grep&lt;/code&gt; command scan search&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;p&gt;grep &amp;ldquo;millionth&amp;rdquo; data.txt&#xA;millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 6 -&gt; 7</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-6-7/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</link>
       <pubDate>Wed, 07 Aug 2024 15:13:23 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-6-7/</guid>
-      <description>Task The password for the next level is stored somewhere on the server and has all of the following properties:
-owned by user bandit7 owned by group bandit6 33 bytes in size Login SSH: bandit6@bandit.labs.overthewire.org -p 2220
-Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
-Theory The process to solve this task is pretty similar to the previous level, we just need the find command with some different attribute, -user [username] searches for files owned by a specific user and -group [groupname] searches for files owned by a specific group.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-6-7/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;The password for the next level is stored somewhere on the server and has all of the following properties:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;owned by user bandit7&lt;/li&gt;&#xA;&lt;li&gt;owned by group bandit6&lt;/li&gt;&#xA;&lt;li&gt;33 bytes in size&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit6@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;HWasnPhtq9AVKe0dmk45nxy20cvUa6EG&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;The process to solve this task is pretty similar to the previous level, we just need the &lt;code&gt;find&lt;/code&gt; command with some different attribute, &lt;code&gt;-user [username]&lt;/code&gt; searches for files owned by a specific user and &lt;code&gt;-group [groupname]&lt;/code&gt; searches for files owned by a specific group.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 5 -&gt; 6</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-5-6/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</link>
       <pubDate>Wed, 07 Aug 2024 12:31:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-5-6/</guid>
-      <description>Task Find the only file that respect these requirements and read its content.
-The requirements are:
-human-readable 1033 bytes in size not executable Login SSH: bandit5@bandit.labs.overthewire.org -p 2220
-Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-Theory To solve this task, we&amp;rsquo;ll use a combination of basic Linux commands to search for and identify the file with the specified properties. Let&amp;rsquo;s break down the key commands we&amp;rsquo;ll be using:
-find Command
-The find command in Linux is a powerful tool that allows users to search for files and directories based on various criteria.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-5-6/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the only file that respect these requirements and read its content.&lt;/p&gt;&#xA;&lt;p&gt;The requirements are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;human-readable&lt;/li&gt;&#xA;&lt;li&gt;1033 bytes in size&lt;/li&gt;&#xA;&lt;li&gt;not executable&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit5@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To solve this task, we&amp;rsquo;ll use a combination of basic Linux commands to search for and identify the file with the specified properties. Let&amp;rsquo;s break down the key commands we&amp;rsquo;ll be using:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;find&lt;/code&gt; Command&lt;/p&gt;&#xA;&lt;p&gt;The &lt;code&gt;find&lt;/code&gt; command in Linux is a powerful tool that allows users to search for files and directories based on various criteria.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 4 -&gt; 5</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-4-5/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</link>
       <pubDate>Wed, 07 Aug 2024 11:50:31 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-4-5/</guid>
-      <description>Task Find the only human-readable file inside the inhere directory.
-Login SSH: bandit4@bandit.labs.overthewire.org -p 2220
-Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-Theory To find what file is human-readable we can check the type of data inside the file. To do that we can use the file command, some examples would be: ASCII text, directory, POSIX tar archive. Trying to read a non human-readable file would show something like this in the output l�����]�a߯-@gQ�÷�wz�P�ߠy�.
-Solution SSH in to the remote host again and go to the inhere directory.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-4-5/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the only human-readable file inside the &lt;code&gt;inhere&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit4@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To find what file is human-readable we can check the type of data inside the file. To do that we can use the &lt;code&gt;file&lt;/code&gt; command, some examples would be: &lt;code&gt;ASCII text&lt;/code&gt;, &lt;code&gt;directory&lt;/code&gt;, &lt;code&gt;POSIX tar archive&lt;/code&gt;. Trying to read a non human-readable file would show something like this in the output &lt;code&gt;l�����]�a߯-@gQ�÷�wz�P�ߠy�&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;SSH in to the remote host again and go to the inhere directory.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 3 -&gt; 4</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-3-4/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</link>
       <pubDate>Wed, 07 Aug 2024 11:40:36 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-3-4/</guid>
-      <description>Task Find and read the content of the hidden file in the inhere directory.
-Login SSH: bandit3@bandit.labs.overthewire.org -p 2220
-Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
-Theory To find an hidden file in a linux filesystem is really easy, we can use the ls command to list every file in the directory adding to it the -a attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-3-4/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find and read the content of the hidden file in the &lt;code&gt;inhere&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit3@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To find an hidden file in a linux filesystem is really easy, we can use the &lt;code&gt;ls&lt;/code&gt; command to list every file in the directory adding to it the &lt;code&gt;-a&lt;/code&gt; attribute to list hidden files too. They are commonly used for storing user preferences or preserving the state of a utility and are frequently created implicitly by using various utilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 2 -&gt; 3</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-2-3/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</link>
       <pubDate>Tue, 06 Aug 2024 17:51:53 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-2-3/</guid>
-      <description>Task Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.
-Login SSH: bandit2@bandit.labs.overthewire.org -p 2220
-Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
-Theory We can&amp;rsquo;t read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes &amp;quot;filname&amp;quot; and then we can read it.
-Solution Log in to the remote host with the credentials from the last level. ~$: ssh bandit2@bandit.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-2-3/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Read the content of the file called &amp;ldquo;spaces in this filename&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit2@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;263JGJPfgU6LtdEvgfWU1XP5yac29mFx&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;We can&amp;rsquo;t read a file that has a space in its filename normally. To read it we can simply put the name of the file between quotes &lt;code&gt;&amp;quot;filname&amp;quot;&lt;/code&gt; and then we can read it.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Log in to the remote host with the credentials from the last level.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~$: ssh bandit2@bandit.labs.overthewire.org -p 2220&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Search for the file and read his content.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bandit2@bandit~$: ls&#xA;spaces in this filename&#xA;&#xA;bandit2@bandit~$: cat &amp;#34;spaces in this filename&amp;#34;&#xA;MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We can not move to the next challenge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 1 -&gt; 2</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-1-2/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</link>
       <pubDate>Sun, 04 Aug 2024 20:08:05 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-1-2/</guid>
-      <description>Task Read the content of the file called &amp;ldquo;-&amp;rdquo;
-Login SSH: bandit1@bandit.labs.overthewire.org -p 2220
-Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-Theory To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file ./.
-Solution We log in to the remote host with the right credentials ~$: ssh bandit1@bandit.labs.overthewire.org -p 2220 Search for the file and read it. bandit1@bandit~$: ls - bandit1@bandit~$: cat ./- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx We can now proceed to the next challenge.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-1-2/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Read the content of the file called &amp;ldquo;-&amp;rdquo;&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit1@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;To read a file with an &amp;ldquo;unconventional name&amp;rdquo; such as - we need to use the path of the file &lt;code&gt;./&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;We log in to the remote host with the right credentials&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~$: ssh bandit1@bandit.labs.overthewire.org -p 2220&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Search for the file and read it.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bandit1@bandit~$: ls &#xA;-&#xA;&#xA;bandit1@bandit~$: cat ./-&#xA;263JGJPfgU6LtdEvgfWU1XP5yac29mFx&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We can now proceed to the next challenge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 0 -&gt; 1</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-0-1/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</link>
       <pubDate>Sun, 04 Aug 2024 19:51:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-0-1/</guid>
-      <description>Task Find the file readme stored in the filesystem.
-Login SSH: bandit0@bandit.labs.overthewire.org -p 2220
-Password: bandit0
-Theory After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:
-pwd this command show the name of the working directory, the directory you&amp;rsquo;re in right now. ls list the files in the current folder, you can add the attribute -a to show hidden files, using -l instead will show additional information on the files.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0-1/</guid>
+      <description>&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;&#xA;&lt;p&gt;Find the file &lt;code&gt;readme&lt;/code&gt; stored in the filesystem.&lt;/p&gt;&#xA;&lt;h1 id=&#34;login&#34;&gt;Login&lt;/h1&gt;&#xA;&lt;p&gt;SSH: &lt;code&gt;bandit0@bandit.labs.overthewire.org -p 2220&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Password: &lt;code&gt;bandit0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;p&gt;After loggin in the remote host you can use a set of commands to understand where are you and what files are in your directory:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; this command show the name of the working directory, the directory you&amp;rsquo;re in right now.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; list the files in the current folder, you can add the attribute &lt;code&gt;-a&lt;/code&gt; to show hidden files, using &lt;code&gt;-l&lt;/code&gt; instead will show additional information on the files.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;cat&lt;/code&gt; read the content of a file and print them to standard output.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;solution&#34;&gt;Solution&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;We log in with SSH using the information above.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Over The Wire - Bandit 0</title>
-      <link>http://localhost:1313/posts/overthewire-bandit-0/</link>
+      <link>https://kaliban2056.github.io/posts/overthewire-bandit-0/</link>
       <pubDate>Sun, 04 Aug 2024 19:47:52 +0200</pubDate>
-      <guid>http://localhost:1313/posts/overthewire-bandit-0/</guid>
-      <description>Introduction OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.
-The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.
-I worked through the levels and decided to write a walkthrough for my blog.</description>
+      <guid>https://kaliban2056.github.io/posts/overthewire-bandit-0/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;OverTheWire is a free online platform “to learn and practice security concepts in the form of fun-filled games”. It has different, so-called “Wargames”, that deal each deal with an area of security.&lt;/p&gt;&#xA;&lt;p&gt;The first game that is recommended is called Bandit. It is recommended first because it teaches “the basics needed to be able to play other wargames”. This includes mainly basic Linux and Git commands.&lt;/p&gt;&#xA;&lt;p&gt;I worked through the levels and decided to write a walkthrough for my blog. There are already walkthroughs on the internet, from different persons and with different solutions. However, I still decided to publish mine, to at the very least get more comfortable with writing and maybe, since my explanations and thought processes may vary from other writers, help someone understand the solutions better. Also, this way future me has a reference to look back at.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

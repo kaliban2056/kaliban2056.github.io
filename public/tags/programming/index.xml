@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Kaliban&#39;s Blog</title>
-    <link>http://localhost:1313/tags/programming/</link>
+    <link>https://kaliban2056.github.io/tags/programming/</link>
     <description>Recent content in Programming on Kaliban&#39;s Blog</description>
-    <image>
-      <title>Kaliban&#39;s Blog</title>
-      <url>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/link%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Sep 2024 15:41:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kaliban2056.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Simple Multi-Client Chat Application in Python</title>
-      <link>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</link>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</link>
       <pubDate>Mon, 23 Sep 2024 15:41:49 +0200</pubDate>
-      <guid>http://localhost:1313/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
-      <description>In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s socket and threading modules. This project allows multiple clients to connect to a server and communicate in real-time. It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.
-Project Overview The project consists of two main scripts:
-server.py: Manages client connections and broadcast messages to all clients. client.</description>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-multi-client-chat-application-in-python/</guid>
+      <description>&lt;p&gt;In this post, I&amp;rsquo;ll walk through a basic chat application I built using Python&amp;rsquo;s &lt;code&gt;socket&lt;/code&gt; and &lt;code&gt;threading&lt;/code&gt; modules.&#xA;This project allows multiple clients to connect to a server and communicate in real-time.&#xA;It&amp;rsquo;s a great example of how socket programming and threading can be used to build networked applications in Python.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;The project consists of two main scripts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;server.py&lt;/code&gt;: Manages client connections and broadcast messages to all clients.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;client.py&lt;/code&gt;: Connects to the server, sends messages, and receives messages from other clients.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;key-featureswr&#34;&gt;Key Featureswr&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-client support&lt;/strong&gt;: The server can handle multiple clients simultaneously.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Nicknames&lt;/strong&gt;: Each client is prompted to choose a nickname upon connection.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Message broadcasting&lt;/strong&gt;: Messages from one client are shared with all others.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Join/Leave notification&lt;/strong&gt;: Clients are notified when someone joins or leaves the chat.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;server-side-code&#34;&gt;Server-Side Code&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Setting Up the Server Socket&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;AF_INET&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;socket&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SOCK_STREAM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bind&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;host&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;port&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;server&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;listen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;socket.AF_INET&lt;/code&gt;: This specifies that we are using an IPv4 address.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;socket.SOCK_STREAM&lt;/code&gt;: We&amp;rsquo;re using TCP, which is a connection-oriented protocol.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;bind((host, port))&lt;/code&gt;: The server binds to the provided IP address and port.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;listen()&lt;/code&gt;: Starts the server, making it listen for incoming connections.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This sets up a server that listen for incoming connections. When a client connects, the server will handle communication in a separate thread.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building a Simple Network Packet Sniffer With Python</title>
-      <link>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</link>
+      <link>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</link>
       <pubDate>Sat, 21 Sep 2024 10:39:05 +0200</pubDate>
-      <guid>http://localhost:1313/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
-      <description>If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project. In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets. This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.
-Project Overview The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.</description>
+      <guid>https://kaliban2056.github.io/posts/building-a-simple-network-packet-sniffer-with-python/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re interested in understanding how data flows through your network or need a tool for network diagnostics, creating a packet sniffer can be an exciting project.&#xA;In this post, I&amp;rsquo;ll guide you through a Python-based packet sniffer that captures, decodes, and analyzes network packets.&#xA;This project is perfect for anyone wanting to learn more about networking and Python&amp;rsquo;s ability to interact with low-level protocols.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;The goal of this packet sniffer is to capture and analyze packets at the Ethernet frame level.&#xA;By using Python&amp;rsquo;s raw socket capabilities, it inspects Ethernet, IPv4, ICMP, TCP and UDP protocols.&#xA;This is ideal for understanding how these protocols work or for performing basic network diagnostics.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
